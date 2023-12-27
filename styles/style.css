@@ -105,3 +105,62 @@ button{
 .white-mob{
     margin-left: -250px;
 }
+.steps__1{
+    margin-top: 201px;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+.create_account{
+    display: flex;
+    align-items: center;
+}
+.orange_tittle{
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+.black_tittle{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.black_tittle-desc{
+    color:#737373;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.checkout{
+    display: flex;
+    align-items: center;
+}
+.download {
+    background: url("/assets/img/backgound_foot.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer__wrapper{
+    padding: 26px 40px 28px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
