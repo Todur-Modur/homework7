@@ -96,3 +96,12 @@ button{
 .playstore{
     background: #fa4a0c;
 }
+.phones{
+    text-align: center;
+}
+.red-mob{
+    margin: -450px 0px -150px -130px;
+}
+.white-mob{
+    margin-left: -250px;
+}
