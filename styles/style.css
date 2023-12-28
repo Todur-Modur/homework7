@@ -95,6 +95,7 @@ button{
 }
 .playstore{
     background: #fa4a0c;
+    border: none;
 }
 .phones{
     text-align: center;
@@ -114,6 +115,7 @@ button{
 .create_account{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .orange_tittle{
     color: #FA4A0C;
@@ -139,11 +141,13 @@ button{
 .explore{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row-reverse;
 }
 .checkout{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .download {
     background: url("/assets/img/backgound_foot.jpg");
@@ -154,6 +158,35 @@ button{
     color: #fff;
     text-align: center;
 }
+
+.download__tittle{
+    margin-top: 145.9px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.download__tittle_desc{
+    font-size: 24px;
+    line-height: 38px; 
+    letter-spacing: 0.2px;
+}
+.button__footer_playstore{
+    margin-bottom: 131.1px;
+    border: none;
+    background: #FA4A0C;
+    padding: 18px 31px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.button__footer_appstore{
+    margin-bottom: 131.1px;
+    padding: 18px 31px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
 .footer{
     max-width: 1440px;
     margin: 0 auto;
@@ -163,4 +196,18 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo{
+    margin-left: 220px;
+}
+.logo_3{
+    margin-right: 220px;
+}
+.copywright{
+    color: #5C5C5C;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
 }
