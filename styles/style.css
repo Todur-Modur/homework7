@@ -30,10 +30,6 @@ a {
     align-items: center;
 }
 
-.header__navigation {
-
-}
-
 .header__list {
     display: flex;
     flex-direction: row; /* default */
@@ -98,16 +94,26 @@ button{
     border: none;
 }
 .phones{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .red-mob{
-    margin: -450px 0px -150px -130px;
+    margin: -260px 0px -150px -130px;
 }
 .white-mob{
+    margin-top: -80px;
     margin-left: -250px;
 }
+.hr-line{
+    margin-top: 128.91px;
+    width: 884px;
+    height: 3px;
+    background-color: #E4E4E4;
+    border: none;
+}
 .steps__1{
-    margin-top: 201px;
+    margin-top: 72.09px;
     font-size: 44px;
     font-weight: 600;
     text-align: center;
