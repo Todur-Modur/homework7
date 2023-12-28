@@ -49,7 +49,7 @@ a {
 
 
 .hero {
-    background: url("/assets/img/hero.jpeg");
+    background: url("../assets/img/hero.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ button{
     justify-content: center;
 }
 .download {
-    background: url("/assets/img/backgound_foot.jpg");
+    background: url("../assets/img/backgound_foot.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
