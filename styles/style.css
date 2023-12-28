@@ -30,10 +30,6 @@ a {
     align-items: center;
 }
 
-.header__navigation {
-
-}
-
 .header__list {
     display: flex;
     flex-direction: row; /* default */
@@ -49,9 +45,175 @@ a {
 
 
 .hero {
-    background: url("/assets/img/hero.jpeg");
+    background: url(../assets/img/hero.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: auto;
+    color: #fff;
+    text-align: center;
+}
+.hero_tittle{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+.hero_food-app{
+    color: #f6f6f6;
+    margin-top: 73px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.hero_download{
+    color: #f6f6f6;
+    margin-top: 27px;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+
+}
+button{
+    width: 236px;
+    padding: 16px 0px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    margin-bottom: 146px;
+    margin-top: 54px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FFF;
+    background: none;
+}
+.playstore{
+    background: #fa4a0c;
+    border: none;
+}
+.phones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red-mob{
+    margin: -260px 0px -150px -130px;
+}
+.white-mob{
+    margin-top: -80px;
+    margin-left: -250px;
+}
+.hr-line{
+    margin-top: 128.91px;
+    width: 884px;
+    height: 3px;
+    background-color: #E4E4E4;
+    border: none;
+}
+.steps__1{
+    margin-top: 72.09px;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+.create_account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange_tittle{
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+.black_tittle{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.black_tittle-desc{
+    color:#737373;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download {
+    background: url(../assets/img/backgound_foot.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.download__tittle{
+    margin-top: 145.9px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.download__tittle_desc{
+    font-size: 24px;
+    line-height: 38px; 
+    letter-spacing: 0.2px;
+}
+.button__footer_playstore{
+    margin-bottom: 131.1px;
+    border: none;
+    background: #FA4A0C;
+    padding: 18px 31px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.button__footer_appstore{
+    margin-bottom: 131.1px;
+    padding: 18px 31px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer__wrapper{
+    padding: 26px 40px 28px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 220px;
+}
+.logo_3{
+    margin-right: 220px;
+}
+.copywright{
+    color: #5C5C5C;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
 }
